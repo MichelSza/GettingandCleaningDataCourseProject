@@ -81,8 +81,8 @@ SecondTidyDF <- aggregate(. ~ Subject + Activity, data = tidyDF, FUN=mean)
 
 ## write the dataset in the same directory as the script
 message ("writing the second dataset")
-write.csv(SecondTidyDF, file = "tidyData.csv", row.names = FALSE)
-## the dataset can be read using >read.csv("tidyData.csv")
+write.table(SecondTidyDF, file = "tidyData.txt", sep=" ", row.names = FALSE)
+## the dataset can be read using tidyDF2 <- read.table("tidyData.txt", header=TRUE)
 
 message ("Done")
 

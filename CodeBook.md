@@ -8,15 +8,15 @@
 
 ##Activity
  Text value
-- WALKING
-- WALKING_UPSTAIRS
-- WALKING_DOWNSTAIRS
-- SITTING
-- STANDING
-- LAYING
+	- WALKING
+	- WALKING_UPSTAIRS
+	- WALKING_DOWNSTAIRS
+	- SITTING
+	- STANDING
+	- LAYING
 
 ##tBodyAcc.mean...X
-- this the first variable of 179 others.
+	- this the first variable of 179 others.
 
 ### The other columns are extracted from the original dataset and explained in  (features_info.txt and features.txt)
 Only the mean and standard deviation has been kept.
@@ -30,25 +30,25 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-- tBodyAcc.mean|std...X|Y|Z
-- tGravityAcc.mean|std...X|Y|Z
-- tBodyAccJerk.mean|std...X|Y|Z
-- tBodyGyro.mean|std...X|Y|Z
-- tBodyGyroJerk.mean|std...X|Y|Z
-- tBodyAccMag.mean|std..
-- tGravityAccMag.mean|std..
-- tBodyAccJerkMag.mean|std..
-- tBodyGyroMag.mean|std..
-- tBodyGyroJerkMag.mean|std..
-- fBodyAcc.mean|std...X|Y|Z
-- fBodyAccJerk.mean|std...X|Y|Z
-- fBodyGyro.mean|std...X|Y|Z
-- fBodyAccMag.mean|std..
-- fBodyAccJerkMag.mean|std..
-- fBodyGyroMag.mean|std..
-- fBodyGyroJerkMag.mean|std..
+	- tBodyAcc.mean|std...X|Y|Z
+	- tGravityAcc.mean|std...X|Y|Z
+	- tBodyAccJerk.mean|std...X|Y|Z
+	- tBodyGyro.mean|std...X|Y|Z
+	- tBodyGyroJerk.mean|std...X|Y|Z
+	- tBodyAccMag.mean|std..
+	- tGravityAccMag.mean|std..
+	- tBodyAccJerkMag.mean|std..
+	- tBodyGyroMag.mean|std..
+	- tBodyGyroJerkMag.mean|std..
+	- fBodyAcc.mean|std...X|Y|Z
+	- fBodyAccJerk.mean|std...X|Y|Z
+	- fBodyGyro.mean|std...X|Y|Z
+	- fBodyAccMag.mean|std..
+	- fBodyAccJerkMag.mean|std..
+	- fBodyGyroMag.mean|std..
+	- fBodyGyroJerkMag.mean|std..
 
 The set of variables that were estimated from these signals are: 
 
-- mean(): Mean value
-- std(): Standard deviation
+	- mean(): Mean value
+	- std(): Standard deviation
